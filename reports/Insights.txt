@@ -1,0 +1,6 @@
+Need visualization for each position and what variables matter.
+Catboost is good.
+
+LJ RFI:
+    Higher the top 2 cards, the higher the bluff amount
+    Paired board means less bluffs
