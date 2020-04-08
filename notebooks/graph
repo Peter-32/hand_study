@@ -1,20 +1,24 @@
 digraph Tree {
 node [shape=box] ;
-0 [label="rank2 <= 10.5\nmse = 10.556\nsamples = 14249\nvalue = 16.671"] ;
-1 [label="rank1 <= 13.5\nmse = 6.284\nsamples = 11000\nvalue = 17.246"] ;
+0 [label="cat1_combos <= 60.5\nmse = 482.901\nsamples = 216\nvalue = 15.171"] ;
+1 [label="rank2 <= 10.5\nmse = 118.173\nsamples = 188\nvalue = 7.83"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="rank2 <= 7.5\nmse = 6.547\nsamples = 9467\nvalue = 16.927"] ;
+2 [label="cat1_combos <= 51.5\nmse = 41.053\nsamples = 150\nvalue = 4.0"] ;
 1 -> 2 ;
-3 [label="rank1 <= 7.5\nmse = 1.813\nsamples = 5569\nvalue = 17.45"] ;
+3 [label="rank3 <= 8.5\nmse = 8.051\nsamples = 107\nvalue = 1.206"] ;
 2 -> 3 ;
-4 [label="mse = 0.0\nsamples = 1403\nvalue = 16.0"] ;
+4 [label="cat1_combos <= 49.5\nmse = 4.511\nsamples = 105\nvalue = 0.943"] ;
 3 -> 4 ;
-5 [label="mse = 1.477\nsamples = 4166\nvalue = 17.938"] ;
-3 -> 5 ;
-6 [label="mse = 12.364\nsamples = 3898\nvalue = 16.181"] ;
-2 -> 6 ;
-7 [label="mse = 0.167\nsamples = 1533\nvalue = 19.212"] ;
-1 -> 7 ;
-8 [label="mse = 20.108\nsamples = 3249\nvalue = 14.724"] ;
-0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="mse = 0.0\nsamples = 71\nvalue = 0.0"] ;
+4 -> 5 ;
+6 [label="mse = 8.198\nsamples = 34\nvalue = 2.912"] ;
+4 -> 6 ;
+7 [label="mse = 0.0\nsamples = 2\nvalue = 15.0"] ;
+3 -> 7 ;
+8 [label="mse = 55.393\nsamples = 43\nvalue = 10.953"] ;
+2 -> 8 ;
+9 [label="mse = 136.155\nsamples = 38\nvalue = 22.947"] ;
+1 -> 9 ;
+10 [label="mse = 140.106\nsamples = 28\nvalue = 64.464"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 }
