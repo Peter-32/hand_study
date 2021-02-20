@@ -1,16 +1,20 @@
 digraph Tree {
 node [shape=box] ;
-0 [label="bluff_code <= 15.5\nmse = 26.424\nsamples = 11958\nvalue = 7.905"] ;
-1 [label="bluff_code <= 8.5\nmse = 8.717\nsamples = 6822\nvalue = 4.623"] ;
+0 [label="bluff_code2 <= 8.5\nmse = 10.352\nsamples = 1680099\nvalue = 4.212"] ;
+1 [label="bluff_code2 <= 4.5\nmse = 2.228\nsamples = 1023992\nvalue = 2.447"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="mse = 2.201\nsamples = 3368\nvalue = 2.65"] ;
+2 [label="bluff_code2 <= 2.5\nmse = 0.588\nsamples = 626161\nvalue = 1.743"] ;
 1 -> 2 ;
-3 [label="mse = 7.574\nsamples = 3454\nvalue = 6.546"] ;
-1 -> 3 ;
-4 [label="bluff_code <= 18.5\nmse = 16.625\nsamples = 5136\nvalue = 12.265"] ;
-0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="mse = 13.285\nsamples = 2477\nvalue = 11.149"] ;
-4 -> 5 ;
-6 [label="mse = 17.499\nsamples = 2659\nvalue = 13.303"] ;
-4 -> 6 ;
+3 [label="mse = 0.174\nsamples = 248041\nvalue = 1.223"] ;
+2 -> 3 ;
+4 [label="mse = 0.566\nsamples = 378120\nvalue = 2.084"] ;
+2 -> 4 ;
+5 [label="mse = 2.805\nsamples = 397831\nvalue = 3.553"] ;
+1 -> 5 ;
+6 [label="bluff_code2 <= 15.5\nmse = 10.578\nsamples = 656107\nvalue = 6.967"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="mse = 8.062\nsamples = 474878\nvalue = 6.158"] ;
+6 -> 7 ;
+8 [label="mse = 10.958\nsamples = 181229\nvalue = 9.088"] ;
+6 -> 8 ;
 }
